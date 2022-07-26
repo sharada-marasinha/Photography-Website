@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@500;600&family=Reggae+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+    background-color: rgb(165, 128, 26);
+
+}
+
+.header {
+    width: 1024px;
+    height: 725px;
+    background-color: aliceblue;
+    background-image: url(image/IMG-20220429-WA0002.jpg);
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#topic{
+   height: 80px; 
+}
+
+p span{
+    border: 0 solid black;
+    padding: 12px;
+    font-size: 20px;
+    position: relative;
+    background-color: rgb(165, 128, 26);
+    font-family: reggae one;
+
+
+}
+#topic-test{
+    text-align: center;
+    font-family: oswold;
+    padding: 10px;
+}
+.sub-sec-head{
+    background-image: url(image/BACK.JPG);
+    height:60px;
+    width:995px;
+    color: aliceblue;
+    padding: 10px;
+    font-size: 70px;
+}
+#content{
+    width: 1100px;
+    height: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:#249cc7;
+}
+#main-content{
+    height: 700px;
+    width: 800px;
+    background-color: aliceblue;
+    position: relative;
+    top: 25px;
+    left:10px;
+    font-family:Roboto ;
+}
+
+.event-date{
+    width: 100px;
+    height: 7px;
+    text-align: center;
+    line-height: 26px;
+    float: left;
+    font-size: 14px;
+    border-top: 2px solid #ccc;
+    margin: -1px 0 0 0;
+    padding: 4px 5px 6px;
+    clear: left;
+    font-weight: bold;
+}
+.event-des{
+    width: 625px;
+    background-color: #ccc;
+    float: left;
+    margin: 0;
+    padding: 8px 12px 8px 8px;
+    border-top: 1px solid #ccc;
+    clear: right;
+    font-size: 14px;
+}
+
+.event-des-nth{
+    border-bottom: 1px solid #ccc;
+
+}
+#side-content{
+    height: 700px;
+    width: 290px;
+    float: right;
+    clear: both;
+    position: relative;
+    bottom: 680px;
+}
+
+#logo{
+    width:50% ;
+    height: 50%;
+    padding: 10px;
+    position: relative;
+    top: 7px;
+    padding-bottom: 20px;
+    
+    right: 18px;
+}
+th .info td {
+    vertical-align: top;
+    border: 0;
+    border-bottom: 1px solid #dddddd;
+    padding: 0.2em;
+    font-family: roboto;
+}
+
+#SLG{
+    font-family:Reggae One;
+    font-weight: bold;
+    font-size: 26px;
+
+}
+
+#footer{
+    background-color: #ececec;
+    height: 200px;
+
+
+}
+
+#quote{
+   font-family: farro;
+   text-align: center;
+   font-size:24px;
+   position: relative;
+   top: 5px;
+   left: 150px; 
+}
+
+a{
+    color: dodgerblue;
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
